@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button class="btn btn-primary m20" id="first">Fade out first text</button>
+        <button class="btn btn-dark m20" data-count="second">Fade out second text</button>
+        <button class="btn btn-warning m20">Fade out all texts</button> 
+        
+        <!-- DropDown menu-->
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" id="dropDownMenuButton">Dropdown button</button> 
+            <div class="dropdown-menu" data-toggle-id="dropDownMenuButton">
+                <a href="#" class="dropdown-item">Action</a>
+                <a href="#" class="dropdown-item">Action #2</a>
+                <a href="#" class="dropdown-item">Action #3</a>
+            </div>
+        </div>
+
+        <!--Card-->
+        <div class="goods d-flex f-space-around">
+            <div class="card">
+                <img class="card-img" src="https://media-cdn.tripadvisor.com/media/photo-s/1b/1d/77/1d/on-the-road.jpg" alt="photo">
+                <div class="card-body">
+                    <div class="card-title">Card title</div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis quia, possimus, nihil praesentium hic aliquid voluptatibus excepturi odio sequi nisi odit necessitatibus quis, magnam voluptatum modi eligendi animi natus repellendus!
+                    </p>
+                    <a href="#" id="trigger" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Link to</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="https://media-cdn.tripadvisor.com/media/photo-s/1b/1d/77/1d/on-the-road.jpg" alt="photo">
+                <div class="card-body">
+                    <div class="card-title">Card title #2</div>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis quia, possimus, nihil praesentium hic aliquid voluptatibus excepturi odio sequi nisi odit necessitatibus quis, magnam voluptatum modi eligendi animi natus repellendus!
+                    </p>
+                    <a href="#"  class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Link to</a> <!--кнопка вызова модального окна-->
+                </div>
+            </div>
+        </div>
+
+        <!--Modal-->
+        <!-- <div class="modal" id="exampleModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                     <button class="close" data-close>
+                        <span>&times;</span>
+                     </button>
+                     <div class="modal-header">
+                        <div class="modal-title">
+                            Modal title
+                        </div>
+                     </div>
+                     <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima numquam eligendi cum maxime fugiat rem necessitatibus nulla aliquid perspiciatis obcaecati rerum, incidunt doloremque, esse, nihil aut qui id reprehenderit ipsam!
+                     </div>
+                     <div class="modal-footer">
+                        <button class="btn btn-danger" data-close>Close</button>
+                        <button class="btn btn-success">Save change</button>
+                     </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="modal" id="exampleModal2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                     <button class="close" data-close>
+                        <span>&times;</span>
+                     </button>
+                     <div class="modal-header">
+                        <div class="modal-title">
+                            Modal title
+                        </div>
+                     </div>
+                     <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima numquam eligendi cum maxime fugiat rem necessitatibus nulla aliquid perspiciatis obcaecati rerum, incidunt doloremque, esse, nihil aut qui id reprehenderit ipsam!
+                     </div>
+                     <div class="modal-footer">
+                        <button class="btn btn-danger" data-close>Close</button>
+                        <button class="btn btn-success">Save change</button>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabs -->
+
+        <div class="tab mt-20 block-center">
+            <div class="tab-panel" data-panel>
+                <div class="tab-item tab-item--active">Content 1</div>
+                <div class="tab-item">Content 2</div>
+                <div class="tab-item">Content 3</div>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" id="dropDownMenuButton2">Dropdown button</button> 
+                    <div class="dropdown-menu" data-toggle-id="dropDownMenuButton2">
+                        <a href="#" class="dropdown-item">Action</a>
+                        <a href="#" class="dropdown-item">Action #2</a>
+                        <a href="#" class="dropdown-item">Action #3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content tab-content--active">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni asperiores quis quia quam ab esse vitae magnam optio quo id ipsam corporis eius cum reprehenderit beatae voluptatibus suscipit, ullam nam!
+                <br> <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi aliquid placeat beatae, eaque commodi saepe nam ab, eius dicta consequatur, repellat sint voluptates consequuntur. Ut tempore harum officiis minus omnis.
+            </div>
+            <div class="tab-content">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni asperiores quis quia quam ab esse vitae magnam optio quo id ipsam corporis eius cum reprehenderit beatae voluptatibus suscipit, ullam nam!
+                <br> <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi aliquid placeat beatae, eaque commodi saepe nam ab, eius dicta consequatur, repellat sint voluptates consequuntur. Ut tempore harum officiis minus omnis.
+                <br> <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi aliquid placeat beatae, eaque commodi saepe nam ab, eius dicta consequatur, repellat sint voluptates consequuntur. Ut tempore harum officiis minus omnis.
+            </div>
+            <div class="tab-content">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi aliquid placeat beatae, eaque commodi saepe nam ab, eius dicta consequatur, repellat sint voluptates consequuntur. Ut tempore harum officiis minus omnis.
+            </div>
+        </div>
+<!-- Accordion -->
+        <div class="accordion mt-20 block-center">
+            <div class="accordion-head">
+                Collapse first element
+            </div>
+            <div class="accordion-content">
+                <div class="accordion-inner">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum provident maiores incidunt? Veniam libero facilis numquam, quisquam placeat quia voluptatum dolorum, eum suscipit cumque voluptatem? Est eaque deleniti alias nam?
+                </div>
+            </div>
+
+            <div class="accordion-head">
+                    Collapse second element
+            </div>
+            <div class="accordion-content">
+                <div class="accordion-inner">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum provident maiores incidunt? Veniam libero facilis numquam, quisquam placeat quia voluptatum dolorum, eum suscipit cumque voluptatem? Est eaque deleniti alias nam?
+                </div>
+            </div>
+        </div>
+   
+   <!-- Carousel -->
+        <div class="carousel" id="example">
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0"></li>
+                <li data-slide-to="1"></li>
+                <li data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-slides">
+                    <div class="carousel-item">
+                        <img src="https://thumbs.dreamstime.com/b/chemin-en-bois-25594909.jpg" alt="photo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1554080353-a576cf803bda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGhvdG98ZW58MHx8MHx8&w=1000&q=80cd" alt="photo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://34travel.me/media/upload/images/2020/MAY/arch2020/1.jpg" alt="photo">
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="carousel-prev" data-slide="prev">
+                <span class="carousel-prev-icon">&lt;</span>
+            </a>
+            <a href="#" class="carousel-next" data-slide="next">
+                <span class="carousel-prev-icon">&gt;</span>
+            </a>
+        </div>
+
+        
+    </div>
+
+    <script src='script.js'></script>
+</body>
+</html>
